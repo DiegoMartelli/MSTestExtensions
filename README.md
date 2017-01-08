@@ -1,3 +1,7 @@
+# This is just a dotnetcore porting
+This is just a dotnetcore porting of the BRADLEY BRAITHWAITE library. Please refere to his blog for specification.
+https://www.nuget.org/packages/MSTestExtensions/
+
 #Add Extension Methods to Assert in MSTest
 
 An extendible implementation of the Assert class in MSTest. Allows for extending the Assert methods whilst retaining the default Assert. methods. Also includes a Throws() method for asserting exceptions.

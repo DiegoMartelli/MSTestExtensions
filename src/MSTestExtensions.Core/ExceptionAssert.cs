@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace MSTestExtensions
 {
@@ -192,7 +192,7 @@ namespace MSTestExtensions
 
         private static void AssertExceptionNotInherited<T>(Exception ex)
         {
-            Assert.IsFalse(ex.GetType().IsSubclassOf(typeof(T)));
+            Assert.IsFalse(ex is T);
         }
 
         private static void AssertExceptionType<T>(Exception ex, ExceptionInheritanceOptions options)
